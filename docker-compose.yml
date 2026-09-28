@@ -38,7 +38,7 @@ services:
       - "GF_SERVER_CERT_KEY=/etc/grafana/grafana.key" # adjust to match your domain name
       - "GF_SERVER_PROTOCOL=https"
       - "GF_SECURITY_ADMIN_USER=admin"
-      - "GF_SECURITY_ADMIN_PASSWORD=cloud2025"
+      - "GF_SECURITY_ADMIN_PASSWORD=cloud2026"
 
   app:
     build: ./app
